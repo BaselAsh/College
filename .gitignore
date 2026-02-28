@@ -1,0 +1,40 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables (General patterns)
+*.exe
+*.out
+*.app
+
+# Specific to your Arch Linux environment
+# This ignores files with no extension (common for C++ binaries on Linux)
+# Note: Use this carefully if you have files without extensions that AREN'T binaries.
+*
+!*/
+!*.*
+!Makefile
+!LICENSE
+!README.md
+# Neovim / Vim swap files
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+*.un~
+Undo/
+
+# OS generated files
+.DS_Store
+.directory
+Thumbs.db
