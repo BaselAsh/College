@@ -1,3 +1,8 @@
+# Testing directories
+test/
+*.pdf
+
+
 # Compiled Object files
 *.o
 *.obj
