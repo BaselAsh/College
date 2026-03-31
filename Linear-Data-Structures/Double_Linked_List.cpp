@@ -133,23 +133,24 @@ template <typename T> class Doubly_Linked_List {
             curr = curr->next;
         }
     }
-
     void traverse_forward() const {
         Node *curr = head;
+        cout << "(TAIL)" << " <-> ";
         while (curr) {
             cout << "[" << curr->data << "] <-> ";
             curr = curr->next;
         }
-        cout << "NULL" << endl;
+        cout << "(HEAD)" << endl;
     }
 
     void traverse_backward() const {
         Node *curr = tail;
+        cout << "(TAIL)" << " <-> ";
         while (curr) {
             cout << "[" << curr->data << "] <-> ";
             curr = curr->prev;
         }
-        cout << "NULL" << endl;
+        cout << "(HEAD)" << endl;
     }
 
     void clear() {
@@ -162,4 +163,15 @@ template <typename T> class Doubly_Linked_List {
     size_t count() const { return size; }
 };
 
-int main() { return 0; }
+int main() {
+    Doubly_Linked_List<int> dls;
+    dls.insert_at_beginning(5);
+    dls.insert_at_end(6);
+    dls.insert_at_beginning(4);
+    dls.traverse_forward();
+    dls.traverse_backward();
+    dls.delete_by_value(5);
+    dls.traverse_forward();
+
+    return 0;
+}
