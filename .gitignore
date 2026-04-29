@@ -24,3 +24,6 @@ test/
 [._]ss[a-gi-z]
 *.un~
 Undo/
+
+# Datasets for Selected Topics
+IMDB*
