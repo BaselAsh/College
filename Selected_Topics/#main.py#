@@ -1,20 +1,10 @@
-import re
-
-import pandas as pd
-from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, CountVectorizer
-
-STOP_WORDS = set(ENGLISH_STOP_WORDS)
-sw = set(ENGLISH_STOP_WORDS)
-sw.add("hate")
 
 
-def clean_text(text, stop_words):
-    text = text.lower()
-    text = re.sub(r"[^\w\s]", "", text)
-    words = text.split()
-    words = [word for word in words if word not in stop_words]
 
-    return " ".join(words)
+
+
+
+
 
 
 def main():
