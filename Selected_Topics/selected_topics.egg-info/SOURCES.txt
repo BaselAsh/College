@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+project/project.py
+selected_topics.egg-info/PKG-INFO
+selected_topics.egg-info/SOURCES.txt
+selected_topics.egg-info/dependency_links.txt
+selected_topics.egg-info/entry_points.txt
+selected_topics.egg-info/requires.txt
+selected_topics.egg-info/top_level.txt

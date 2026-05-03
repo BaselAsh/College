@@ -1,0 +1,2 @@
+[console_scripts]
+run-project = project.project:main

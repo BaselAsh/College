@@ -10,6 +10,16 @@ dependencies = [
     "pandas>=3.0.1",
     "requests>=2.32.5",
     "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
     "sklearning>=0.0.1",
     "torch>=2.11.0",
 ]
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+packages = ["project"]
+
+[project.scripts]
+run-project = "project.project:main"
