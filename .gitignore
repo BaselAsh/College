@@ -34,7 +34,7 @@ lc3tools_v12.zip
 # Python
 
 # Byte-compiled / optimized / DLL files
-__pycache__/
+**/__pycache__/
 *.py[cod]
 
 # C extensions
@@ -53,7 +53,7 @@ sdist/
 var/
 *.egg-info/
 .installed.cfg
-*.egg
+*.egg*
 
 # Installer logs
 pip-log.txt
@@ -83,4 +83,6 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
-   
+
+# Lock Files
+.\~lock*
