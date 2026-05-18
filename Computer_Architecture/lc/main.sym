@@ -1,0 +1,10 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	AGAIN             3003
+//	FIVE              300B
+//	FOUR              300C
+//	HEX30             300D
+//	RESULT            300E
+
